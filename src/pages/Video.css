@@ -1,0 +1,18 @@
+.video {
+  height: 100%;
+  width: 100%;
+  scroll-snap-align: start;
+  position: relative;
+}
+
+.video__player {
+  height: 95%;
+  width: 98%;
+  margin: 20px 0 20px 0;
+  border-radius: 20px;
+  background-color: rgba(76, 76, 76, 0.53);
+}
+
+.video__player:hover {
+  filter:brightness(50%);
+}
